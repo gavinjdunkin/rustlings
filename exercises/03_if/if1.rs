@@ -8,7 +8,14 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
-    // - additional variables
+    // - additional variables\
+    if a < b {
+        b
+    }
+    else {
+        a
+    }
+
 }
 
 // Don't mind this for now :)
